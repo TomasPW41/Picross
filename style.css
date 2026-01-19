@@ -20,21 +20,6 @@ body > p {
   margin: 3px 0;
 }
 
-/* Sticky header for large grids */
-.sticky-header {
-  position: sticky;
-  top: 0;
-  background-color: #f5f5f5;
-  padding: 10px 0;
-  z-index: 100;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-body.dark-mode .sticky-header {
-  background-color: #121212;
-}
-
 #picross-grid {
   border-collapse: collapse;
   margin-top: 10px;
@@ -102,6 +87,7 @@ button {
   font-weight: bold;
   margin: 10px 0;
   min-height: 24px;
+  display: block;
 }
 
 #streak {
@@ -269,6 +255,4 @@ body.dark-mode #leaderboard-content table th {
   color: #666;
 }
 
-body.dark-mode #close-leaderboard {
-  color: #aaa;
-}
+body.dark-mode #cl
